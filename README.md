@@ -16,19 +16,27 @@ Shared core utilities for modern TypeScript applications. Released under the MIT
 # Install
 npm install zarrcore-js
 
-# Usage
-import { Form } from 'zarrcore-js';
-import { useApi } from 'zarrcore-js/api';
+# Usage Examples
+import { Form, useForm } from 'zarrcore-js/form';
+import { useApi, createApiClient } from 'zarrcore-js/api';
+import { /* node utils */ } from 'zarrcore-js/node';
+import { /* router */ } from 'zarrcore-js/router';
+
+# CLI
+npx zarrcore --help
 ```
 
 ## 📦 Features
 
-- 🎯 **Form Management**: Advanced form handling with validation
-- 🌐 **API Utilities**: Complete API utilities with loading states  
-- 🛠️ **TypeScript Ready**: Full TypeScript support
-- 🧩 **Modular Architecture**: Import only what you need
-- 📦 **Tree Shakable**: Optimized bundles
--  **MIT Licensed**: Open source with permissive license
+- 🎯 **Form Management** (`zarrcore-js/form`): Advanced form handling with validation, field tracking, and state management
+- 🌐 **API Utilities** (`zarrcore-js/api`): Complete API utilities with loading states, request/response handling, and retry logic
+- 🖥️ **Node.js Utilities** (`zarrcore-js/node`): Server-side utilities for Node.js environments
+- �️ **Router** (`zarrcore-js/router`): Lightweight routing system with dynamic routes and middleware support
+- ��️ **TypeScript Ready**: Full TypeScript support with comprehensive type definitions
+- 🧩 **Modular Architecture**: Import only what you need via subpath exports
+- 📦 **Tree Shakable**: Optimized bundles for smaller bundle sizes
+- 🔧 **CLI Tool**: Command-line interface via `npx zarrcore`
+- ✅ **MIT Licensed**: Open source with permissive license
 
 ## 📖 Documentation
 
@@ -45,6 +53,18 @@ yarn add zarrcore-js
 # or  
 pnpm add zarrcore-js
 ```
+
+## 🔗 Module Exports
+
+Import only what you need:
+
+| Module | Import Path | Description |
+|--------|-------------|-------------|
+| Core | `zarrcore-js` | Main exports (Form, API, utilities) |
+| API | `zarrcore-js/api` | HTTP client utilities and hooks |
+| Form | `zarrcore-js/form` | Form management and validation |
+| Node | `zarrcore-js/node` | Node.js server-side utilities |
+| Router | `zarrcore-js/router` | Routing system and navigation |
 
 ## 🔗 Links
 
