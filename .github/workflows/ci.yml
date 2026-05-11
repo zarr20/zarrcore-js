@@ -37,6 +37,10 @@ jobs:
       if: steps.check-build.outputs.needs_build == 'true'
       run: npm run build
       
+    - name: Install test dependencies
+      if: steps.check-build.outputs.needs_build == 'true'
+      run: npm ci
+      
     - name: Run tests
       run: npm test
       

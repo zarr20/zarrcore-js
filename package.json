@@ -1,6 +1,6 @@
 {
   "name": "zarrcore-js",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "description": "Shared core utilities for modern TypeScript applications.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -37,7 +37,14 @@
   },
   "scripts": {
     "build": "node build.js",
-    "test": "node dist/cli.js --help"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:major": "npm version major",
+    "prepublishOnly": "npm test",
+    "publish:dry": "npm publish --dry-run"
   },
   "keywords": [
     "react",
@@ -56,5 +63,11 @@
   "bugs": {
     "url": "https://github.com/zarr20/zarrcore-js/issues"
   },
-  "homepage": "https://github.com/zarr20/zarrcore-js#readme"
+  "homepage": "https://github.com/zarr20/zarrcore-js#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.6",
+    "happy-dom": "^20.9.0",
+    "jsdom": "^29.1.1",
+    "vitest": "^4.1.6"
+  }
 }
