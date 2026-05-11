@@ -7,96 +7,69 @@
 
 Shared core utilities for modern TypeScript applications. Released under the MIT License.
 
-## Installation
+## 🚀 Quick Start
 
 ```bash
-# Install from local build
-npm install ./main
-
-# Or install from npm registry (when published)
+# Install
 npm install zarrcore-js
-```
 
-## Features
-
-- ⚡ **Obfuscated Build**: Code is minified and obfuscated for production
-- 🌐 **API Handling**: Complete API utilities for modern applications
-- 📝 **Form Support**: Advanced form handling with field tracking
-- 🛠️ **TypeScript Ready**: Full TypeScript support with comprehensive types
-- 🧩 **Modular Architecture**: Reusable and maintainable code structure
-- 📦 **Tree Shakable**: Optimized bundles for better performance
-- 🔄 **Dual Format**: ESM and CommonJS compatibility
-- 🏗️ **Scalable**: Built for modern application development
-- ✨ **Developer Experience**: Clean and intuitive API design
-- 📄 **MIT Licensed**: Open source with permissive license
-
-## Usage
-
-### Form Module (with improved field tracking)
-```typescript
+# Usage
 import { Form } from 'zarrcore-js';
-
-// Form now knows all fields from initialValues before render
-const initialValues = {
-  name: '',
-  email: '',
-  age: 0,
-  active: false
-};
-
-<Form initialValues={initialValues} validationRules={validationRules} onSubmit={handleSubmit}>
-  {(form) => (
-    <input name="name" value={form.values.name} onChange={form.handleChange} />
-    <input name="email" value={form.values.email} onChange={form.handleChange} />
-    // ... other fields
-  )}
-</Form>
+import { useApi } from 'zarrcore-js/api';
 ```
 
-### API Module
-```typescript
-import { useApi, useApiSend, useApiLoad } from 'zarrcore-js/api';
+## 📦 Features
 
-const api = useApi();
-```
+- 🎯 **Form Management**: Advanced form handling with validation
+- 🌐 **API Utilities**: Complete API utilities with loading states  
+- 🛠️ **TypeScript Ready**: Full TypeScript support
+- 🧩 **Modular Architecture**: Import only what you need
+- 📦 **Tree Shakable**: Optimized bundles
+-  **MIT Licensed**: Open source with permissive license
 
-### CLI Tool
+## 📖 Documentation
+
+For complete documentation, examples, and API reference, visit:
+
+**[📚 Documentation Portal →](./docs/)**
+
+## 📦 Installation
+
 ```bash
-npx zarrcore-js --help
+npm install zarrcore-js
+# or
+yarn add zarrcore-js
+# or  
+pnpm add zarrcore-js
 ```
 
-## Development
+## 🔗 Links
 
-Clone the repository:
-```bash
-git clone https://github.com/zarr20/zarrcore-js.git
-```
+- **📚 Documentation**: [./docs/](./docs/)
+- **📦 NPM Package**: https://www.npmjs.com/package/zarrcore-js
+- **🐛 Issues**: https://github.com/zarr20/zarrcore-js/issues
+- **📄 License**: [MIT License](./LICENSE)
 
-Install dependencies:
-```bash
-npm install
-```
+## 🤝 Contributing
 
-Run development:
-```bash
-npm run dev
-```
+Interested in contributing to zarrcore-js? I'd love to hear from you!
 
-Build package:
-```bash
-npm run build
-```
+**Contact me for contributions:**
+- **LinkedIn**: [Dzarr Al Ghifari](https://www.linkedin.com/in/dzarr-a-371a491a8/)
+- **GitHub Issues**: [Open an issue](https://github.com/zarr20/zarrcore-js/issues)
+- **Email**: dzarr.ghifari@example.com
 
-## License
+**How to contribute:**
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+5. Or contact me directly for collaboration opportunities
 
-This project is [licensed](https://github.com/zarr20/zarrcore-js/blob/main/LICENSE) under the MIT License.
+All contributions are welcome, whether it's bug fixes, new features, documentation improvements, or suggestions!
 
-## Author
+---
 
-Created and maintained by Dzarr al ghifari.
+**zarrcore-js** - Modern TypeScript utilities for modern applications.
 
-## Links
-
-- **Repository**: https://github.com/zarr20/zarrcore-js.git
-- **Issues**: https://github.com/zarr20/zarrcore-js/issues
-- **Documentation**: https://github.com/zarr20/zarrcore-js#readme
+Made with ❤️ by [Dzarr al ghifari](https://www.linkedin.com/in/dzarr-a-371a491a8/)

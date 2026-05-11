@@ -1,0 +1,2 @@
+import{a,b,c,d,e,f,g}from"./chunk-SOH47H2B.js";export{f as bindApi,g as bindApiWithConfig,b as createApiClient,a as createApiFactory,e as useApiControls,c as useApiLoad,d as useApiSend};
+//# sourceMappingURL=api.js.map
