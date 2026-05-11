@@ -72,3 +72,5 @@ All contributions are welcome, whether it's bug fixes, new features, documentati
 **zarrcore-js** - Modern TypeScript utilities for modern applications.
 
 Made with ❤️ by [Dzarr al ghifari](https://www.linkedin.com/in/dzarr-a-371a491a8/)
+
+*Developed as a personal open-source project. Feel free to use it in commercial projects under the MIT License.*
