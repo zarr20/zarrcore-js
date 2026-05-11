@@ -43,7 +43,7 @@ example();
 Clone the repository:
 
 ```bash
-git clone [<zarrcore-repository-url>](https://github.com/zarr20/zarrcore-js)
+git clone https://github.com/zarr20/zarrcore-js
 ```
 
 Install dependencies:
