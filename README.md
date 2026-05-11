@@ -68,7 +68,7 @@ npm run build
 
 ## License
 
-This project is licensed under the MIT License.
+This project is [licensed](https://github.com/zarr20/zarrcore-js/blob/main/LICENSE) under the MIT License.
 
 ---
 
