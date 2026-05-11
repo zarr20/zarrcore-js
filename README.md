@@ -1,12 +1,12 @@
 # zarrcore-js
 
-[![CI](https://github.com/zarr20/zarrcore-js/workflows/CI/badge.svg)](https://github.com/zarr20/zarrcore-js/actions)
-[![Security](https://github.com/zarr20/zarrcore-js/workflows/Security/badge.svg)](https://github.com/zarr20/zarrcore-js/actions)
+[![CI](https://github.com/zarr20/zarrcore-js/workflows/CI/badge.svg?v=1)](https://github.com/zarr20/zarrcore-js/actions)
+[![Security](https://github.com/zarr20/zarrcore-js/workflows/Security/badge.svg?v=1)](https://github.com/zarr20/zarrcore-js/actions)
 
-![npm version](https://badge.fury.io/js/zarrcore-js.svg)
-![license](https://img.shields.io/npm/l/zarrcore-js.svg)
-![typescript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)
-![npm downloads](https://img.shields.io/npm/dm/zarrcore-js.svg)
+![npm version](https://badge.fury.io/js/zarrcore-js.svg?v=1)
+![license](https://img.shields.io/npm/l/zarrcore-js.svg?v=1)
+![typescript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?v=1)
+![npm downloads](https://img.shields.io/npm/dm/zarrcore-js.svg?v=1)
 
 Shared core utilities for modern TypeScript applications. Released under the MIT License.
 
