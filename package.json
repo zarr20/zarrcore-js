@@ -1,6 +1,6 @@
 {
   "name": "zarrcore-js",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Shared core utilities for modern TypeScript applications.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -11,7 +11,7 @@
   },
   "files": [
     "dist/**/*",
-    "src/**/*"
+    "README.md"
   ],
   "exports": {
     ".": {
