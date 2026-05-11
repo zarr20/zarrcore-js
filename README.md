@@ -55,9 +55,8 @@ pnpm add zarrcore-js
 Interested in contributing to zarrcore-js? I'd love to hear from you!
 
 **Contact me for contributions:**
-- **LinkedIn**: [Dzarr Al Ghifari](https://www.linkedin.com/in/dzarr-a-371a491a8/)
 - **GitHub Issues**: [Open an issue](https://github.com/zarr20/zarrcore-js/issues)
-- **Email**: dzarr.ghifari@example.com
+- **Email**: dzarrzoy@gmail.com
 
 **How to contribute:**
 1. Fork the repository
