@@ -36,6 +36,7 @@
     }
   },
   "scripts": {
+    "build": "node build.js",
     "test": "node dist/cli.js --help"
   },
   "keywords": [

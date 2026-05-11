@@ -1,0 +1,14 @@
+# Security configuration for GitHub
+# Enable secret scanning and push protection
+
+secret_scanning:
+  enabled: true
+
+secret_scanning_push_protection:
+  enabled: true
+
+dependabot_alerts:
+  enabled: true
+
+dependabot_security_updates:
+  enabled: true

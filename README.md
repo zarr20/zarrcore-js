@@ -1,5 +1,8 @@
 # zarrcore-js
 
+[![CI](https://github.com/zarr20/zarrcore-js/workflows/CI/badge.svg)](https://github.com/zarr20/zarrcore-js/actions)
+[![Security](https://github.com/zarr20/zarrcore-js/workflows/Security/badge.svg)](https://github.com/zarr20/zarrcore-js/actions)
+
 ![npm version](https://badge.fury.io/js/zarrcore-js.svg)
 ![license](https://img.shields.io/npm/l/zarrcore-js.svg)
 ![typescript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)
