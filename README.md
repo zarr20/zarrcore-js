@@ -4,7 +4,6 @@
 [![license](https://img.shields.io/npm/l/zarrcore-js.svg)](https://github.com/your-username/zarrcore-js/blob/main/LICENSE)
 [![npm downloads](https://img.shields.io/npm/dm/zarrcore-js.svg)](https://www.npmjs.com/package/zarrcore-js)
 [![typescript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
-[![build](https://img.shields.io/github/actions/workflow/status/your-username/zarrcore-js/ci.yml?branch=main)](https://github.com/your-username/zarrcore-js/actions)
 
 Shared core utilities for modern TypeScript applications. Released under the MIT License.
 
