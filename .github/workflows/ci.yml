@@ -81,21 +81,6 @@ jobs:
         continue-on-error: true
 
       # ==========================================
-      # DIST SECRET SCAN
-      # ==========================================
-      - name: Scan dist for secrets
-        run: |
-          if [ -d "./dist" ]; then
-            echo "Scanning dist for secrets..."
-
-            grep -R -i -E "secret|password|apikey|token" ./dist \
-              && exit 1 \
-              || echo "No secrets found"
-          else
-            echo "dist folder not found, skipping scan"
-          fi
-
-      # ==========================================
       # TRUFFLEHOG SECURITY SCAN
       # ==========================================
       - name: Security scan (TruffleHog)
