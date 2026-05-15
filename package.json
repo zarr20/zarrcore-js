@@ -2,10 +2,9 @@
   "name": "zarrcore-js",
   "version": "2.2.0",
   "description": "Shared core utilities for modern TypeScript applications.",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
     "zarrcore": "./dist/cli.js"
   },
@@ -15,28 +14,34 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./api": {
-      "import": "./dist/api.js",
-      "types": "./dist/api.d.ts"
-    },
-    "./form": {
-      "import": "./dist/form.js",
-      "types": "./dist/form.d.ts"
-    },
-    "./node": {
-      "import": "./dist/node.js",
-      "types": "./dist/node.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./router": {
-      "import": "./dist/router.js",
-      "types": "./dist/router.d.ts"
+      "types": "./dist/router.d.ts",
+      "import": "./dist/router.js"
+    },
+    "./node": {
+      "types": "./dist/node/index.d.ts",
+      "import": "./dist/node/index.js"
     }
   },
+  "typesVersions": {
+    "*": {
+      "node": [
+        "./dist/node.d.ts"
+      ],
+      "cli": [
+        "./dist/cli.d.ts"
+      ],
+      "*": [
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "sideEffects": false,
   "scripts": {
-    "build": "node build.js",
+
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
@@ -63,6 +68,10 @@
     "url": "https://github.com/zarr20/zarrcore-js/issues"
   },
   "homepage": "https://github.com/zarr20/zarrcore-js#readme",
+  "peerDependencies": {
+    "react": ">=18 <20",
+    "axios": "^1.14.2"
+  },
   "devDependencies": {
     "@vitest/ui": "^4.1.6",
     "happy-dom": "^20.9.0",
