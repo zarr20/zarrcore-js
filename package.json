@@ -1,6 +1,6 @@
 {
   "name": "zarrcore-js",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Shared core utilities for modern TypeScript applications.",
   "type": "module",
   "main": "./dist/index.js",
@@ -41,7 +41,6 @@
   },
   "sideEffects": false,
   "scripts": {
-
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
