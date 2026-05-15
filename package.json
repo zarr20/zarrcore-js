@@ -6,7 +6,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "zarrcore": "./dist/cli.js"
+    "zarrcore": "dist/cli.js"
   },
   "files": [
     "dist/**/*",
@@ -61,7 +61,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zarr20/zarrcore-js.git"
+    "url": "git+https://github.com/zarr20/zarrcore-js.git"
   },
   "bugs": {
     "url": "https://github.com/zarr20/zarrcore-js/issues"
