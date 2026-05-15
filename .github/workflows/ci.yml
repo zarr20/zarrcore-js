@@ -83,10 +83,10 @@ jobs:
       # ==========================================
       # TRUFFLEHOG SECURITY SCAN
       # ==========================================
-      - name: Security scan (TruffleHog)
-        uses: trufflesecurity/trufflehog@main
-        with:
-          extra_args: --results=verified,unknown
+      # - name: Security scan (TruffleHog)
+      #   uses: trufflesecurity/trufflehog@main
+      #   with:
+      #     extra_args: --results=verified,unknown
 
   # ==========================================
   # REUSABLE SECURITY WORKFLOW
