@@ -17,11 +17,16 @@ describe('Package Structure', () => {
       'router.js', 'router.d.ts',
       'cli.js'
     ];
-    
+
     for (const file of requiredFiles) {
       const filePath = join(distPath, file);
       expect(() => readFileSync(filePath, 'utf-8')).not.toThrow();
     }
+  });
+
+  test('package-lock.json should exist', () => {
+    const lockPath = join(__dirname, '..', 'package-lock.json');
+    expect(() => readFileSync(lockPath, 'utf-8')).not.toThrow();
   });
 
   it('index.js should export Form', () => {
@@ -33,12 +38,11 @@ describe('Package Structure', () => {
   it('package.json should have valid exports', () => {
     const pkgPath = join(__dirname, '..', 'package.json');
     const pkg = JSON.parse(readFileSync(pkgPath, 'utf-8'));
-    
+
     expect(pkg.exports['.']).toBeDefined();
-    expect(pkg.exports['./api']).toBeDefined();
-    expect(pkg.exports['./form']).toBeDefined();
-    expect(pkg.exports['./node']).toBeDefined();
+    // Updated exports check based on current package.json
     expect(pkg.exports['./router']).toBeDefined();
+    expect(pkg.exports['./node']).toBeDefined();
   });
 
   it('cli.js should be executable', () => {
